@@ -1,9 +1,6 @@
 # Coffe Premium
 
-![Capa do Projeto - Exemplo de como seu site pode parecer](img/foto%20caf%C3%A9%20com%20cora%C3%A7%C3%A3o.jpg)
-*(Substitua esta imagem pela sua imagem principal do projeto, se desejar)*
-
-Um projeto de website responsivo para uma cafeteria premium, desenvolvido com HTML5, CSS3 e JavaScript. O objetivo é apresentar a cafeteria, seu menu e permitir o cadastro de clientes, oferecendo uma experiência de usuário agradável em diversas telas.
+Um projeto de website para uma cafeteria premium, desenvolvido com HTML5, CSS3 e JavaScript. O objetivo é apresentar a cafeteria, seu menu e permitir o cadastro de clientes, oferecendo uma experiência de usuário agradável em diversas telas.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -43,3 +40,29 @@ Para visualizar e testar o projeto localmente, siga os passos abaixo:
     Você pode abrir os arquivos `index.html`, `sobrenos.html`, `menu.html` ou `cadastro.html` diretamente em seu navegador (clique duas vezes no arquivo ou arraste-o para a janela do navegador). Para uma melhor experiência de desenvolvimento, especialmente com JavaScript, é recomendado usar uma extensão como "Live Server" no VS Code.
 
 ## 📁 Estrutura do Projeto
+
+── index.html          # Página inicial
+├── sobrenos.html       # Página "Sobre Nós"
+├── menu.html           # Página do Menu
+├── cadastro.html       # Página de Cadastro
+├── index.css           # Arquivo CSS principal para estilos e responsividade
+├── script.js           # Arquivo JavaScript para interatividade
+└── img/                # Pasta de imagens do projeto
+├── logo2.jpg
+├── logo footer.png
+
+
+
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para reportar bugs ou sugerir melhorias, ou submeter pull requests com suas implementações.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes. *(Se você não tiver um arquivo LICENSE, pode remover esta seção ou criar um.)*
+
+##  Desenvolvedora
+
+**Alessandra Paz**
+* LinkedIn: [alessandra-paz-493aa089](https://www.linkedin.com/in/alessandra-paz-493aa089/)
