@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Roboto" , sans-serif;
+}  
+
+     /*Início Home */
+     
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding-top:1.5rem;
+    align-items: center;
+    background-color: #462B1B;
+}
+.logo img{
+    width: 60px;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: -2rem;
+    border-radius: 40px;
+}
+.links{
+    padding-right: 9rem;
+    font-size: 1.5rem;
+}
+ ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: bisque;
+    transition: 0.3s;
+    padding-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+ul li a:hover{
+    text-transform: none;
+    color: rgb(224, 193, 151);
+    border-bottom: solid 1px;
+}
+hr {
+    border-bottom: solid 0.1px;
+    color: rgb(242, 206, 162);
+    margin-top: 1.5px;
+} 
+.C-title{
+    height: 100vh;
+    background-image: url(img/-xicara-de-cafe-com-simbolo-de-coracao.jpg);
+    background-position: center center;
+    background-size: cover;
+    max-width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    color: rgb(242, 206, 162);
+    font-size: 3rem;
+    margin-left: -20rem;
+    line-height: 1;
+    text-align: left;
+    text-shadow: 0 0 24px brown;
+}
+.title h2{
+    color: rgb(245, 222, 192);
+    line-height: 6rem;
+    font-size: 2rem;
+    font-weight: 100%;
+    margin-left: auto;
+    margin-bottom: -8rem;
+    text-shadow: 0 0 24px brown;
+}
+    /* Fim Home */
+
+   /* Início Sobre nós */
+   .background{
+    background-color:#6C5237;
+    max-width: 100%;
+    max-height: 100vw;
+}
+.section-1 h1{
+     align-items: center;
+     text-align: center;
+     color: burlywood;
+     font-size: 2.5rem;
+     
+}
+.section-1{
+    padding: 3.5rem;
+}
+.sobre-nos{
+    display: flex;
+    align-items: center;
+    background-color: #462B1B;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1rem;
+}
+.sobre-nos img{
+max-width: 100%;
+width: 80rem;
+height: auto;
+}
+.Sobre-nos-title{
+    margin-left: 1rem;
+}
+.Sobre-nos-title h2{
+color: #c9a884;
+font-size: 1.5rem;
+}
+.Sobre-nos-title p{
+    line-height: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #ddd1c4;
+}
+/*Fim Sobre nós*/
+
+/* Início Menu*/
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6C5237;
+}
+.menu h2{
+    font-size: 2.5rem;
+    color: #c9a884;
+    text-transform: capitalize;
+    margin-top: 2.5rem;
+}
+.itens-menu{
+    width: 88%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3rem));
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.itens-menu .info{
+background-color: #c9a884;
+border: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 1rem;
+border-radius:2.5rem;
+}
+.itens-menu .info h3{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.itens-menu .info h4{
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+.itens-menu .info h4 span{
+    font-size: 1rem;
+    color: #190f0a;
+    margin-left: 0.5rem;
+}
+.itens-menu .info .pedir{
+  width: 100px;
+  height: 35px;
+  margin-top: 0.5px;
+  cursor: pointer;
+  color: rgb(171, 128, 70);
+  transition: all 200ms ease-in;
+  border-radius: 2rem;
+}
+.itens-menu .info .pedir:hover{
+    background-color: #462B1B;
+}
+.itens-menu img{
+    width: 10rem;
+    height: 6rem;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+  /*Fim Menu*/
+    
+  /*Início contato*/
+
+  .contato{
+    background-color: #6C5237;
+    width: 100%;
+    height:60vw;
+  }
+  .contato h2{
+    color: #c9a884;
+    padding-top: 2rem;
+    margin-left: 27rem;
+    font-size: 2rem;
+  }
+  .form-content{
+    margin-left: 20rem ;
+    padding-top: 2rem;
+  }
+.form-content label {
+    display: inline-block;
+    margin-bottom: 2px;
+    color: #e6bb90;
+    font-size: 1.3rem;
+}
+.form-content input {
+    border: 2px solid #462B1B;
+    border-radius: 15px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 30rem;
+    padding: 14px;
+}
+.form-content .small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+.form-content small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.form button {
+        background-color: #462B1B;
+        color: #e6bb90;
+        width: 20%;
+        border-radius: 14px;
+        padding: 13px;
+        margin-left: 27rem;
+        border: 0;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 4rem;
+        cursor: pointer;
+    }
+.form button:hover {
+    background-color: #c7935b;
+    transition: 0.3s;
+}
+      /* Fim Contatos 
+
+     /*Início Footer*/
+
+.footer-nome{
+    max-width: 100%;
+    background-color: #462B1B; 
+    color:#c9a884; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    margin: auto;
+}
+.footer-nome h3{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.footer-nome h3:hover{
+    color: #190f0a;
+}
+.footer-contato {
+   margin-top:-6rem;
+   margin-left: 3rem;
+   color: #e6bb90;
+}
+.footer-logo img{
+    width: 12rem;
+    margin-left: 61rem;
+    margin-top: -5.4rem;
+    border-radius: 2.5rem ;
+}
+.footer-contato div{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.footer-contato div:hover{
+    color: #190f0a;
+}
+  /*Fim footer*/
+  
