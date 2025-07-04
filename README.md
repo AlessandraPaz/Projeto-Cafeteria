@@ -6,7 +6,7 @@ Um projeto de website para uma cafeteria premium, desenvolvido com HTML5, CSS3 e
 
 * **HTML5:** Estrutura semântica das páginas web.
 * **CSS3:** Estilização e design responsivo (com `Flexbox` e `CSS Grid`).
-* **JavaScript:** Interatividade, como menu hambúrguer e validação de formulário.
+* **JavaScript:** Interatividade e validação de formulário.
 * **Ionicons:** Biblioteca de ícones (para ícones de menu, busca, carrinho, contato).
 * **Bootstrap Icons:** (Opcional, se você usou outros ícones além do Ionicons).
 * **Google Fonts (Poppins):** Fontes para uma tipografia moderna e legível.
