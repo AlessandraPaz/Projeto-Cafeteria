@@ -1,11 +1,11 @@
 # Coffe Premium
 
-Um projeto de website para uma cafeteria premium, desenvolvido com HTML5, CSS3 e JavaScript. O objetivo é apresentar a cafeteria, seu menu e permitir o cadastro de clientes, oferecendo uma experiência de usuário agradável em diversas telas.
+Um projeto de website responsivo para uma cafeteria premium, desenvolvido com HTML5, CSS3 e JavaScript. O objetivo é apresentar a cafeteria, seu menu e permitir o cadastro de clientes, oferecendo uma experiência de usuário agradável em diversas telas.
 
 ## 🚀 Tecnologias Utilizadas
 
 * **HTML5:** Estrutura semântica das páginas web.
-* **CSS3:** Estilização e design responsivo (com `Flexbox` e `CSS Grid`).
+* **CSS3:** Estilização e design.
 * **JavaScript:** Interatividade e validação de formulário.
 * **Ionicons:** Biblioteca de ícones (para ícones de menu, busca, carrinho, contato).
 * **Bootstrap Icons:** (Opcional, se você usou outros ícones além do Ionicons).
@@ -15,9 +15,8 @@ Um projeto de website para uma cafeteria premium, desenvolvido com HTML5, CSS3 e
 
 * **Página Inicial (Home):** Apresentação atraente da cafeteria.
 * **Sobre Nós:** Detalhes sobre a história e a filosofia da Coffe Premium.
-* **Menu:** Visualização dos itens do menu, com design em grade responsiva.
+* **Menu:** Visualização dos itens do menu
 * **Cadastro:** Formulário de cadastro de cliente com validação em tempo real.
-* **Navegação Responsiva:** Menu hambúrguer para dispositivos móveis, adaptando-se a diferentes tamanhos de tela.
 * **Design Moderno:** Cores quentes e elementos visuais que remetem ao ambiente de uma cafeteria.
 * **Rodapé Detalhado:** Informações de contato e redes sociais.
 
@@ -41,18 +40,26 @@ Para visualizar e testar o projeto localmente, siga os passos abaixo:
 
 ## 📁 Estrutura do Projeto
 
-── index.html          # Página inicial
-├── sobrenos.html       # Página "Sobre Nós"
-├── menu.html           # Página do Menu
-├── cadastro.html       # Página de Cadastro
-├── index.css           # Arquivo CSS principal para estilos e responsividade
-├── script.js           # Arquivo JavaScript para interatividade
-└── img/                # Pasta de imagens do projeto
-├── logo2.jpg
-├── logo footer.png
-
-
-
+* **`index.html`**: Página principal e porta de entrada do site, apresentando a cafeteria.
+* **`sobrenos.html`**: Página dedicada à história e à filosofia da Coffe Premium.
+* **`menu.html`**: Apresenta os itens do menu da cafeteria de forma organizada.
+* **`cadastro.html`**: Formulário para o registro de novos clientes.
+* **`index.css`**: Arquivo de estilos CSS principal.
+* **`script.js`**: Contém o código JavaScript para funcionalidades interativas.
+* **`checkForm.js`**: Script JavaScript auxiliar, possivelmente focado em validações específicas do formulário.
+* **`README.md`**: Este arquivo que você está lendo, com informações sobre o projeto.
+* **`img/`**: Diretório que armazena todas as imagens utilizadas no projeto (logos, fotos de café, ícones, etc.).
+    * `cafe-com-leite-condensado.jpg`
+    * `cafeteria.jpeg`
+    * `cappuccino.jpg`
+    * `foto cafe 1.jpg`
+    * `icon success.png`
+    * `icon error.png`
+    * `logo footer.png`
+    * `logo2.jpg`
+    * `logo3.jpg`
+* **`.vscode/`**: (Opcional) Contém configurações específicas para o ambiente de desenvolvimento VS Code, como `settings.json`.
+* **`LICENSE`**: (Opcional) Arquivo que especifica a licença de uso do projeto.
 
 ## 🤝 Contribuição
 
@@ -60,9 +67,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para repo
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes. *(Se você não tiver um arquivo LICENSE, pode remover esta seção ou criar um.)*
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes. 
 
 ##  Desenvolvedora
 
 **Alessandra Paz**
-* LinkedIn: [alessandra-paz-493aa089](https://www.linkedin.com/in/alessandra-paz-493aa089/)
+* LinkedIn: [alessandrapaz-qa/](https://www.linkedin.com/in/alessandrapaz-qa/)
